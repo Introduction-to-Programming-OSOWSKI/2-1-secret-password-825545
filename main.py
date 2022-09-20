@@ -1,1 +1,8 @@
-#WRITE YOUR CODE IN THIS FILE
+from re import A
+
+
+def password(p):
+    if p == "Knights19": 
+        return ("ACCESS GRANTED")
+    else:
+        return ("ACCESS DENIED") 
